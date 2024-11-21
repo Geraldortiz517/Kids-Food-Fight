@@ -28,7 +28,7 @@ return (
             <div className={ `${ showMenu ? 'show-menu' : ''} nav__menu`}>
                 <ul className="nav__list"> 
                    <li className="nav__item">
-                   <a href="/Home"onClick={() => setShowMenu (!showMenu)} className="nav__link">Home</a>
+                   <a href="/home"onClick={() => setShowMenu (!showMenu)} className="nav__link">Home</a>
                   </li>
                    <li className="nav__item">
                     <a href="/game"onClick={() => setShowMenu (!showMenu)} className="nav__link">Game</a>
