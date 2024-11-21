@@ -1,0 +1,41 @@
+.quotes-content{
+text-align: center;
+}
+.quotes-tittle{
+    margin-top: 5vh;
+}
+#quotes-row-container{
+    background-color: var(--bg-color);
+    margin-top: 5vh;
+}
+.row{
+margin: 5vh;
+width: 35vh;
+height: 45vh;
+padding: 5vh;
+border-radius: 5%;
+-webkit-box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.75);
+
+}
+.row h1{
+    font-family: var(--body-font);
+}
+.row p{
+    text-align: left;
+ margin-top: 10vh;
+ width: 30%;
+ border-top: 1px solid black;
+}
+.quote-img{
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    justify-content: end;
+    border: 3px solid var(--first-color-light);
+
+   
+}

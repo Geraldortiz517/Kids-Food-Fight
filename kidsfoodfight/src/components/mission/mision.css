@@ -1,0 +1,36 @@
+#mission{
+    background-color: var(--first-color-light);
+    height: fit-content;
+}
+.mission-content{
+    text-align: center;
+    margin-top: 10vh;
+    padding-top: 5vh;
+    }
+    .mission-subtittle{
+        margin: 5vh;
+        margin-left: 25%;
+       width: 50%;
+       font-size: larger;
+       color: var(--bg-color);
+
+        }
+ #mission-tittle{
+    font-family: var(--body-font);
+    font-size: xx-large;
+    font-weight: 700;
+    color: var(--bg-color);
+   }
+   .row-c{
+    display: flex;
+    width: 100%;
+    justify-content:space-evenly;
+   }
+
+#hero{
+    height: 524px;
+    width: 400px;
+  object-fit: none;
+  object-position:top ;
+  
+}
