@@ -3,6 +3,7 @@ import "./mision.css";
 import family from "../../assets/famili1.jpg";
 import gameboard from "../../assets/gameboard.png";
 import hero from "../../assets/herogreen1.png";
+import check from "../../assets/check-white.png";
 const Mission = () => {
 
   return (
@@ -22,7 +23,22 @@ const Mission = () => {
 
 <div className="mission-row2">
 <h1>Parents</h1>
-<p>Invest in your child's learning journey with engaging games that make eating healthy fun! </p></div>
+<h3>Invest in your child's learning journey with engaging games that make eating healthy fun! </h3>
+<div className="check-items">
+<img src={check} alt="" />
+<p>Help your child improve their phisical skills and confidence in a fun, safe and secure environment</p>
+</div>
+<div className="check-items">
+<img src={check} alt="" />
+<p>Motivate a healthy development, track their progress and inspire them to practice new skills</p>
+</div>
+<div className="check-items">
+<img src={check} alt="" />
+<p>Become your kids super hero </p>
+</div>
+<h2>What if your kids knew how and wanted to make healthier food choices on their own? </h2>
+<a className='btn' id='mission-btn' href="https://kids-food-fight.mn.co/plans/1440354"> Play Now</a>
+</div>
 </div>
              
             </div>   

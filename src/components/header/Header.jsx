@@ -31,22 +31,22 @@ return (
                    <a href="/Home"onClick={() => setShowMenu (!showMenu)} className="nav__link">Home</a>
                   </li>
                    <li className="nav__item">
-                    <a href="/About"onClick={() => setShowMenu (!showMenu)} className="nav__link">Game</a>
+                    <a href="/game"onClick={() => setShowMenu (!showMenu)} className="nav__link">Game</a>
                    </li>
                    <li className="nav__item">
-                    <a href="#contact"onClick={() => setShowMenu (!showMenu)} className="nav__link">About Us</a>
+                    <a href="/about"onClick={() => setShowMenu (!showMenu)} className="nav__link">About Us</a>
                    </li>
                    <li className="nav__item">
-                    <a href="#team" onClick={() => setShowMenu (!showMenu)} className="nav__link">Blog</a>
+                    <a href="/blog" onClick={() => setShowMenu (!showMenu)} className="nav__link">Blog</a>
                    </li>
                    <li className="nav__item">
-                    <a href="faq" onClick={() => setShowMenu (!showMenu)} className="nav__link">Partners</a>
+                    <a href="/partners" onClick={() => setShowMenu (!showMenu)} className="nav__link">Partners</a>
                    </li>
                    <li id="nav-btn1" className="btn">
                     <a  href="https://kids-food-fight.mn.co/plans/1440354" onClick={() => setShowMenu (!showMenu)} className="nav__link">Sign Up</a>
                    </li>
                    <li id="nav-btn2" className="btn">
-                    <a id="navbtn2" href="https://kids-food-fight.mn.co/plans/1440354" onClick={() => setShowMenu (!showMenu)} className="nav__link">Log In</a>
+                    <a id="navbtn2" href="https://kids-food-fight.mn.co/sign_in?from=https%3A%2F%2Fkids-food-fight.mn.co%2Fplans%2F1440354" onClick={() => setShowMenu (!showMenu)} className="nav__link">Log In</a>
                    </li>
                 
                 </ul>

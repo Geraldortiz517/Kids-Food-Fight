@@ -8,7 +8,7 @@
     padding-top: 5vh;
     }
     .mission-subtittle{
-        margin: 5vh;
+        margin: 2vh;
         margin-left: 25%;
        width: 50%;
        font-size: larger;
@@ -33,4 +33,34 @@
   object-fit: none;
   object-position:top ;
   
+}
+
+.check-items{
+    display: flex;
+    margin: 5vh;
+    width: 50vh;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: left;
+}
+.check-items img{
+    width: 35px;
+    height: 35px;
+    margin-right:1vh;
+   
+}
+#mission-btn{
+    margin-top: 3vh;
+    width: 30vh;
+    border: 1px solid var(--bg-color);
+}
+#mission-btn:hover{
+   background-color: var(--bg-color);
+}
+.mission-row2 h1{
+    color: var(--bg-color);
+    font-family: var(--body-font);
+    font-size: xx-large;
+    font-weight: 700;
 }
