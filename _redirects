@@ -1,6 +1,6 @@
 # Redirects from what the browser requests to what we serve
-/home                /
-/blog                /blog
-/game                /game
-/partners            /partners
-/about               /about
+/home                \src\pages\home\Home.jsx
+/blog                \src\pages\blog\Blog.jsx
+/game                \src\pages\game\Game.jsx
+/partners            \src\pages\partners\Partners.jsx
+/about               \src\pages\about\About.jsx
