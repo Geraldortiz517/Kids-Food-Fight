@@ -1,6 +1,5 @@
 .home {
     position: relative;
-    min-height:  calc(60vh + var(--header-height));
     display: flex;
     align-items: center;
     
@@ -23,7 +22,7 @@
 }
 .home__content{
     position: relative;
-    margin-top: 6vh;
+   
 }
 strong{
     font-size: xxx-large;

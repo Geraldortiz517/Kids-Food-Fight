@@ -34,7 +34,7 @@ const Mission = () => {
 </div>
 <div className="check-items">
 <img src={check} alt="" />
-<p>Become your kids super hero </p>
+<p>Become your kids super hero, while they get more energy and concentration for school and sports  </p>
 </div>
 <h2>What if your kids knew how and wanted to make healthier food choices on their own? </h2>
 <a className='btn' id='mission-btn' href="https://kids-food-fight.mn.co/plans/1440354"> Play Now</a>

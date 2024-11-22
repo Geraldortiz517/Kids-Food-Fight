@@ -24,12 +24,22 @@
    .row-c{
     display: flex;
     width: 100%;
-    justify-content:space-evenly;
+    justify-content:center ;
+   }
+   .mission-row2{
+    align-items: flex-start;
+    max-width: 550px;
+    min-width: 350px;
    }
 
 #hero{
+ 
     height: 524px;
-    width: 400px;
+    margin: 0px 30px 0px 0px;
+    max-width: 650px;
+    width: 100%;
+    margin-top: 8vh;
+    margin-right: 10vh;
   object-fit: none;
   object-position:top ;
   

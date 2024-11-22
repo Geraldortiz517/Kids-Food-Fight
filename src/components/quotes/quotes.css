@@ -21,6 +21,9 @@ box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.75);
 }
 .row h1{
     font-family: var(--body-font);
+    height: 20vh;
+    margin-top: 10%;
+    
 }
 .row p{
     text-align: left;

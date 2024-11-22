@@ -18,12 +18,13 @@ const Quotes = () => {
    
     </div>
     <div className="row">
-   <h1>"KFF is a great way to get kids who don't like healthy food to try."</h1>
+   <h1>
+   "It was totally manageable! I spent under 2 hours a week and my daughter really got involved."</h1>
     <p>Name</p>
     <img className='quote-img' src={quote1} alt="" />
     </div>
     <div className="row">
-        <h1>"KFF is a great way to get kids who don't like healthy food to try."</h1>
+        <h1>"I thought it was great! Lots of useful info and materials for both kids and adults. Great job!"</h1>
     <p>Name</p>
     <img className='quote-img' src={quote3} alt="" />
     </div>

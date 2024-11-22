@@ -11,7 +11,7 @@ publish = "."
 
   [[redirects]]
   from = "/home"
-  to = "/"about
+  to = "/about"
   status = 301
   force = false
   query = {path = "../../pages/about/"}

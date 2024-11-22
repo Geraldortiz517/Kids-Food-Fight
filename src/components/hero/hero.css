@@ -1,0 +1,42 @@
+.hero-sect{
+    width: 100%;
+}
+.hero-container{
+    display: flex;
+   background-color: aqua;
+    position: relative;
+    height: 40vh;
+    margin-top: 10vh;
+    -webkit-box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.75);
+}
+.hero-container::after{
+    position: absolute;
+    opacity: 0.5;
+}
+
+.hero-img-container img{
+    height: 50vh;
+    margin-left: 15%;
+    margin-top: -5vh;
+    -webkit-box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.75);
+}
+.text-icons{
+    display: flex;
+    margin-left: 10%;
+}
+.text-icon-content{
+    width: 25vh;
+    text-align: center;
+    margin-top: 7vh;
+}
+.text-icon-content img{
+    border-radius: 50%;
+}
+.text-icon-content p{
+  margin-top: 2vh;
+  padding: 2vh;
+    }
