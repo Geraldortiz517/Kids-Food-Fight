@@ -1,2 +1,42 @@
 [build]
 publish = "."
+
+[[redirects]]
+  from = "/home"
+  to = "/ "
+  status = 301
+  force = false
+  query = {path = "/home"}
+  conditions = {Language = ["en"], Country = ["US"], Role = ["admin"]}
+
+[[redirects]]
+  from = "/home"
+  to = "/game "
+  status = 301
+  force = false
+  query = {path = "/game"}
+  conditions = {Language = ["en"], Country = ["US"], Role = ["admin"]}
+
+  [[redirects]]
+  from = "/home"
+  to = "/about "
+  status = 301
+  force = false
+  query = {path = "/about"}
+  conditions = {Language = ["en"], Country = ["US"], Role = ["admin"]}
+
+  [[redirects]]
+  from = "/home"
+  to = "/partners"
+  status = 301
+  force = false
+  query = {path = "/partners"}
+  conditions = {Language = ["en"], Country = ["US"], Role = ["admin"]}
+
+  [[redirects]]
+  from = "/home"
+  to = "/blog"
+  status = 301
+  force = false
+  query = {path = "/blog"}
+  conditions = {Language = ["en"], Country = ["US"], Role = ["admin"]}
