@@ -4,40 +4,30 @@ publish = "."
 [[redirects]]
   from = "/home"
   to = "/game "
-  status = 301
-  force = false
-  query = {path = "../../pages/game/"}
-  conditions = {Language = ["en"], Country = ["US"], Role = ["admin"]}
+  status = 200
+ 
 
   [[redirects]]
   from = "/home"
   to = "/about"
-  status = 301
-  force = false
-  query = {path = "../../pages/about/"}
-  conditions = {Language = ["en"], Country = ["US"], Role = ["admin"]}
+  status = 200
+ 
 
 [[redirects]]
   from = "/home"
   to = "/blog"
-  status = 301
-  force = false
-  query = {path = "../../pages/blog/"}
-  conditions = {Language = ["en"], Country = ["US"], Role = ["admin"]}
+  status = 200
+
 
   [[redirects]]
   from = "/home"
   to = "/partners "
-  status = 301
-  force = false
-  query = {path = "../../pages/partners/"}
-  conditions = {Language = ["en"], Country = ["US"], Role = ["admin"]}
+  status = 200
+
 
   [[redirects]]
   from = "/home"
   to = "/home"
-  status = 301
-  force = false
-  query = {path = "#"}
-  conditions = {Language = ["en"], Country = ["US"], Role = ["admin"]}
+  status = 200
+ 
 
