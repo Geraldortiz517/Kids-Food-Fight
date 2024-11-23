@@ -1,6 +1,6 @@
 # Redirects from what the browser requests to what we serve
-/home                /
-/blog                /blog
-/game                /game
-/partners            /partners
-/about               /about
+/home        /            200
+/blog        /blog,html        200
+/game        /game.html       200
+/partners    /partners.html   200
+/about       /about.html      200
