@@ -42,7 +42,15 @@ const Footer = () => {
                 </div>
               
             </div>
+          
+
         </div>
+          <div className="copyright">
+            <p>&#169;Copyright 2024</p>
+                <p className='copy'>Kids Food Fight Games Inc.</p>
+                <p>All Rights Reserved</p>
+
+            </div>
     </section>
   )
 }
