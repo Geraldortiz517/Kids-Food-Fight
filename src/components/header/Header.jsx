@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import logo2 from "../../assets/logo-1.png"
 import menubar from "../../assets/menubar.png"
 import "./header.css";
-
+import game from "../../pages/game/Game"
 const Header = () => {
     const [scrollHeader, setScrollHeader] = useState(false);
     const [showMenu, setShowMenu] = useState(false);
@@ -28,10 +28,10 @@ return (
             <div className={ `${ showMenu ? 'show-menu' : ''} nav__menu`}>
                 <ul className="nav__list"> 
                    <li className="nav__item">
-                   <a href="/home"onClick={() => setShowMenu (!showMenu)} className="nav__link">Home</a>
+                   <a href="/ "onClick={() => setShowMenu (!showMenu)} className="nav__link">Home</a>
                   </li>
                    <li className="nav__item">
-                    <a href="/game"onClick={() => setShowMenu (!showMenu)} className="nav__link">Game</a>
+                    <a href={game} onClick={() => setShowMenu (!showMenu)} className="nav__link">Game</a>
                    </li>
                    <li className="nav__item">
                     <a href="/about"onClick={() => setShowMenu (!showMenu)} className="nav__link">About Us</a>
