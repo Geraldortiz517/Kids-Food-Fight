@@ -31,7 +31,7 @@ return (
                    <a href="/ "onClick={() => setShowMenu (!showMenu)} className="nav__link">Home</a>
                   </li>
                    <li className="nav__item">
-                    <a href={game} onClick={() => setShowMenu (!showMenu)} className="nav__link">Game</a>
+                    <a href="../../pages/game/" onClick={() => setShowMenu (!showMenu)} className="nav__link">Game</a>
                    </li>
                    <li className="nav__item">
                     <a href="/about"onClick={() => setShowMenu (!showMenu)} className="nav__link">About Us</a>
