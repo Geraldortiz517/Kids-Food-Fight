@@ -42,6 +42,9 @@ return (
                    <li className="nav__item">
                     <a href="/partners" onClick={() => setShowMenu (!showMenu)} className="nav__link">Partners</a>
                    </li>
+                   <li className="nav__item">
+                    <a href="https://kids-food-fight.mn.co/plans/1440354" onClick={() => setShowMenu (!showMenu)} className="nav__link">Pricing</a>
+                   </li>
                    <li id="nav-btn1" className="btn">
                     <a  href="https://kids-food-fight.mn.co/plans/1440354" onClick={() => setShowMenu (!showMenu)} className="nav__link">Sign Up</a>
                    </li>
