@@ -2,6 +2,11 @@
 publish = "."
 
 [[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
   from = "/home"
   to = "/game "
   status = 200
