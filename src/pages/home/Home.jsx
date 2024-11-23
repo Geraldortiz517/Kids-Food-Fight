@@ -5,6 +5,7 @@ import Quotes from '../../components/quotes/Quotes'
 import Mission from '../../components/mission/Mission'
 import Benefits from '../../components/benefits/Benefits'
 import Hero from '../../components/hero/Hero'
+import Footer from '../../components/footer/Footer'
 
 
 export default function Home () {
@@ -16,6 +17,7 @@ return(
 <Mission/>
 <Hero/>
 <Benefits/>
+<Footer/>
 </div>
 )
 }

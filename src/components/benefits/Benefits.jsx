@@ -9,7 +9,7 @@ const Benefits = () => {
   return (
     <section className='benefits'  id='benefits'>
         <div className="benefits_container">
-          <h1>hello world</h1>
+        
  
         </div>
     </section>
