@@ -3,7 +3,7 @@ import "./mision.css";
 import family from "../../assets/famili1.jpg";
 import gameboard from "../../assets/gameboard.png";
 import hero from "../../assets/herogreen1.png";
-import check from "../../assets/check-white.png";
+import check from "../../assets/icon-star.png";
 const Mission = () => {
 
   return (
