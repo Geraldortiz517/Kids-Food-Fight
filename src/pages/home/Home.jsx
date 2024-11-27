@@ -6,6 +6,7 @@ import Mission from '../../components/mission/Mission'
 import Benefits from '../../components/benefits/Benefits'
 import Hero from '../../components/hero/Hero'
 import Footer from '../../components/footer/Footer'
+import Challenges from '../../components/challenges/Challenges'
 
 
 export default function Home () {
@@ -15,6 +16,7 @@ return(
 <Home_cover/>
 <Quotes/>
 <Mission/>
+<Challenges/>
 <Hero/>
 <Benefits/>
 <Footer/>

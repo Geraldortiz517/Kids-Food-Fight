@@ -24,9 +24,14 @@
     -moz-box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.75);
 }
+.text-icons-container{
+    text-align: center;
+    margin-left: 10vh;
+    margin-top: 3vh;
+}
 .text-icons{
     display: flex;
-    margin-left: 10%;
+   
 }
 .text-icon-content{
     width: 25vh;

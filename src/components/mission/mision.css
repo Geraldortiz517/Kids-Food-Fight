@@ -1,6 +1,6 @@
 #mission{
     background-color: var(--first-color-light);
-    height: fit-content;
+    height: 90vh;
 }
 .mission-content{
     text-align: center;
@@ -34,7 +34,7 @@
 
 #hero{
  
-    height: 524px;
+    height: 570px;
     margin: 0px 30px 0px 0px;
     max-width: 650px;
     width: 100%;

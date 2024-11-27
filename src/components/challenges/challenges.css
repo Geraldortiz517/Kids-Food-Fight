@@ -1,0 +1,56 @@
+.challenges-content{
+    text-align: center;
+    margin-top: 10vh;
+}
+.challenges-content h3 {
+    margin-top: 3vh;
+    position: relative;
+    font-family: var(--body-font);
+    width: 60%;
+    left: 50%;
+    transform: translate(-50%)
+}
+.challenges-content-container{
+    display: flex;
+    margin: 5vh;
+}
+.challenge{
+    margin: 3vh;
+}
+.challenge1{
+    width: 80%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%)
+}
+.challenge-description-tittle{
+    text-align: center;
+}
+.challenge-descrition-text{
+    margin: 2vh;
+}
+.challeng-descrition-text-content{
+    display: flex;
+}
+.challeng-descrition-text-content img{
+    width: 35px;
+    height: 35px;
+    margin-top: 2vh;
+}
+.challenge-descrition-text{
+   width: 60%;
+}
+.challenges-bottom-text{
+    text-align: center;
+}
+.challenges-bottom-text h1{
+    font-family: var(--body-font);
+    font-weight: 100;
+}
+.challenges-bottom-text strong{
+   font-size: x-large;
+}
+.challenges-bottom-text a{
+    width: 30vh;
+    margin-top: 2vh;
+ }

@@ -53,12 +53,12 @@ background-color: transparent;
     display: flex;
     column-gap: 2rem;
  }
-#btn1{
+#homebtn1{
     background-color: var(--first-color);
 }
-#btn1:hover{
-    background-color: var(--first-color);
-    color: white;
+#homebtn1:hover{
+    background-color: var(--bg-color);
+    color: var(--first-color);
 }
 .row-container{
     display: flex;

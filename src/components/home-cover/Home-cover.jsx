@@ -19,9 +19,9 @@ In our Game,  Earn Daily Points via Quick Nutrition Lessons and fun Experiments
  for Breakfast, Lunch, Dinner, Snacks & Desserts.  
              </p>
                       <div className="home__btns">
-             <a href="#" id='homebtn1' className="btn">
+             <a href="/about" id='homebtn1' className="btn">
               Learn More
-             </a><a href="#" id='homebtn2' className="btn">
+             </a><a href="/game" id='homebtn2' className="btn">
               Game
              </a>
            </div>
