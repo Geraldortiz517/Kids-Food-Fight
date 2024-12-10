@@ -7,6 +7,7 @@ import Benefits from '../../components/benefits/Benefits'
 import Hero from '../../components/hero/Hero'
 import Footer from '../../components/footer/Footer'
 import Challenges from '../../components/challenges/Challenges'
+import HomeCover2 from '../../components/home-cover2/HomeCover2'
 
 
 export default function Home () {
@@ -18,7 +19,7 @@ return(
 <Mission/>
 <Challenges/>
 <Hero/>
-<Benefits/>
+<HomeCover2/>
 <Footer/>
 </div>
 )
